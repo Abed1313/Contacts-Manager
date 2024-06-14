@@ -43,6 +43,7 @@ namespace Contact_Manager
             if (string.IsNullOrEmpty(contact))
             {
                 throw new ArgumentException("Contact cannot be empty.");
+                
             }
 
             if (contacts.Contains(contact))
